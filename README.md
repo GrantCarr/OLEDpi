@@ -1,5 +1,7 @@
 # OLEDpi - Install OLED name tag on Raspberry Pi
 
+turn on i2c with raspi-config
+
 sudo apt install -y python3-dev python-smbus i2c-tools python3-pil python3-pip python3-setuptools python3-rpi.gpio git
 
 i2cdetect -y 1
