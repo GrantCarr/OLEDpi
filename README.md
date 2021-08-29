@@ -14,6 +14,9 @@ sudo python3 setup.py install
 
 git clone https://github.com/GrantCarr/OLEDpi.git
 
+sudo crontab -e
+
+add: @reboot python3 /home/pi/OLEDpi/piName.py
 
 # OLEDpi - Install OLED name tag on Raspberry Pi 4
 
@@ -37,5 +40,8 @@ cd OLEDpi
 
 python3 piName.py
 
+sudo crontab -e
+
+add: @reboot python3 /home/pi/OLEDpi/piName.py
 
 
